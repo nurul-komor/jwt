@@ -44,6 +44,7 @@ class AuthController extends Controller
             if ($token = $this->guard()->attempt($credentials)) {
                 return $this->respondWithToken($token);
             }
+            // lkdfjslkfs
             return response()->json([
                 'token' => $token,
                 'user' => $user
