@@ -1,3 +1,5 @@
+<h1>Middleware</h1>
+
 ```
 <?php
 
